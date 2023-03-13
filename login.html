@@ -37,6 +37,7 @@
         <div class="login-container">
             <div class="login-container-form">
                 <div class="signUp">
+                    <h2>CLASSIC</h2>
                     <form class="signUp__form" name="LoginForm" action="javascript:void(0)"
                         onsubmit="BackEndLogin(this); return false">
                         <label class="signUp__form--label" for="username">USERNAME</label>
@@ -44,9 +45,9 @@
                         <label class="signUp__form--label" for="password">PASSWORD </label>
                         <input class="signUp__form--input" type="password" placeholder="PASSWORD" name="password"
                             required>
-                        <div class=""> <span name="msj_loading" id="id-login-loading"></span><small class="text-danger"
+                        <div class=""> <span name="msj_loading" id="login"></span><small class="text-danger"
                                 name="msj_error_lg"></small></div>
-                        <input class="btn-login" type="submit" name="send" id="send" value="LOG IN">
+                        <input class="btn-login" type="submit" name="login-send" id="send" value="LOG IN">
                         <input type="hidden" name="BackEndUrl" value="https://betslip.playcr.la/">
                     </form>
                 </div>

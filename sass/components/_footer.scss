@@ -7,6 +7,7 @@ footer{
     justify-content: center;
     flex-wrap: wrap;
     margin-bottom: 60px;
+    color: $white;
     @media screen and (min-width:992px) {
         margin-bottom: 0px;
     }
@@ -30,8 +31,6 @@ footer{
     div{
         width: 100%;
         max-width: 1400px;
-        display: flex;
-        justify-content: space-between;
         section{
             list-style: none;
             margin-top: 20px;
@@ -119,6 +118,7 @@ footer{
             padding-left: 15px;
             padding-right: 15px;
             justify-content: space-around;
+            align-items: center;
             font-size: 10px;
             li{
                     a{
@@ -140,8 +140,9 @@ footer{
                                 max-width: 19px;
                             }
                         }
-                    
+                        
                     }
+                    
                 }
             }
         }

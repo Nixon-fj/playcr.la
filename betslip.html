@@ -34,67 +34,28 @@
         </div>
     </nav>
     <main role="main">
-        <section class="privacy">
-            <div class="privacy-information-container">
-                <h2>
-                    PRIVACY
-                </h2>
-                <ul class="privacy-list">
-                    <li>The Sportsbook and its subsidiaries are committed to respecting and protecting your privacy.
-                    </li>
-                    <li>The following statement discloses the information gathered by the Sportsbook.</li>
-                    <li>Web Site Information: <br />
-                        As part of the web site´s operation and for our own statistical analysis of web-site traffic,
-                        our web site automatically logs Internet IP addresses accessing our site. We DO NOT log any
-                        E-mail Address of web site visitors.
-                    </li>
-                    <li>
-                        Advertising System: <br />
-                        Our Advertising system logs IP addresses to supply more accurate advertising features, such as
-                        language specific banners. It does NOT log any E-mail Addresses.
-                    </li>
-                    <li>
-                        Account Creation Information: <br />
-                        The Account Information supplied during the account creation process is kept strictly
-                        confidential for our own purpose. We do NOT share this information with any third party company
-                        and/or organization.
-                    </li>
-                    <li>
-                        This information includes customer E-mail Addresses and other personal information supplied upon
-                        registration. If you supply us with your personal details, the information will only be used for
-                        its intended use, such as allowing us to send you cash-out checks and other information which
-                        you request.
-                    </li>
-                    <li>
-                        E-mail Addresses are NOT shared with any other organization for commercial or noncommercial
-                        purposes. E-mail Addresses will only be used to provide our customers with information regarding
-                        new software updates, promotional material, and miscellaneous casino operations, such as
-                        deposits and withdrawals.
-                    </li>
-                    <li>
-                        We collect E-mail Addresses of those who communicate with us via E-mail.
-                    </li>
-                    <li>
-                        Winnings: <br />
-                        Your winnings and cash-outs are kept strictly confidential. It is your choice whether or not to
-                        report these winnings to the appropriate authorities, if such apply in your own jurisdiction.
-                    </li>
-                    <li>
-                        Security: <br />
-                        We maintain the upmost available means to ensure that your information remains safe with us. All
-                        information is transferred using encryption technologies and once stored on our servers, it is
-                        maintained safe using the latest Firewall technologies available today. Both our web site and
-                        software use all available means to maintain data accuracy and privacy and to protect your data
-                        from being misused and/or lost.
-                    </li>
-                    <li>
-                        If you have any other questions or concerns regarding data privacy and security please do not
-                        hesitate to contact our Customer Support center at any time, 24 hours a day, 7 days a week. Our
-                        Customer Service representatives will be more than happy to assist you.
-                    </li>
-                </ul>
+        <div class="login-container">
+            <div class="login-container-form">
+                <div class="signUp">
+                    <h2>BETSLIP</h2>
+                    <form class="signUp__form" name="LoginForm" action="javascript:void(0)"
+                        onsubmit="BackEndLogin(this); return false">
+                        <label class="signUp__form--label" for="username">USERNAME</label>
+                        <input class="signUp__form--input" type="text" placeholder="USERNAME" name="username" required>
+                        <label class="signUp__form--label" for="password">PASSWORD </label>
+                        <input class="signUp__form--input" type="password" placeholder="PASSWORD" name="password"
+                            required>
+                        <div class=""> <span name="msj_loading" id="betslip"></span><small class="text-danger"
+                                name="msj_error_lg"></small></div>
+                        <input class="btn-login" type="submit" name="send" id="betslip-send" value="LOG IN">
+                        <input type="hidden" name="BackEndUrl" value="https://betslip.playcr.la/">
+                    </form>
+                </div>
             </div>
-        </section>
+            <div class="login-container-img d-none d-lg-flex">
+                <img src="./img/log in/log-in-image.jpg" alt="login-img" width="100%" height="auto">
+            </div>
+        </div>
     </main>
     <div class="footerNav d-flex d-lg-none">
         <div class="topMenu-container">
@@ -141,6 +102,7 @@
             </section>
         </div>
     </footer>
+    <script src="https://images.betimages.com/Betslip/js/quick.login.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>

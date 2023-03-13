@@ -39,10 +39,9 @@
                 list-style: none;
                 display: flex;
                 align-items:center;
-                gap: 42px;
-                width: 96%;
+                gap: 0.5rem;
                 margin: 0;
-                padding-left: 82px;
+                padding: 0;
             }
 
             ul li a{
@@ -58,7 +57,7 @@
             align-items: center;
             justify-content: flex-end;
             @media screen and (min-width: 900px){
-                width: 10%;
+                width: 20%;
                 justify-content: start;
             }
             &-button{
@@ -66,7 +65,7 @@
                 align-items: center;
                 justify-content: center;
                 padding: 0;
-                margin: 0;
+                margin: 0 0.5rem;
                 width: 68px;
                 height: 25px;
                 text-decoration: none;
@@ -83,6 +82,11 @@
                 &:hover{
                     background-color: $mid-yellow;
                 }
+                
+            }
+            .betslip{
+                color: $white;
+                background-color: $green;
             }
         }
         

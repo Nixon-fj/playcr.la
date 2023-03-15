@@ -4,9 +4,9 @@
     position: sticky;
     top: 0;
     width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
-    height: 61px;
+    padding: 1rem;
+    min-height: 100px;
+    height: auto;
     background-color: $deep-blue;
     z-index: 1000;
     @media screen and (min-width: 900px){
@@ -19,21 +19,29 @@
         width: calc(100% - 30px);
         max-width: 1400px;
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
         align-items: center;
+        @media (min-width: 524px){
+            flex-direction: row;
+        }
         
         &-imgContainer{
-            width: 97px;
-            height: 27px;
-
+            width: 50%;
+            height: auto;
+            margin-bottom: 1rem;
+            margin-right: 1rem;
+            @media (min-width: 524px){
+                width: 30%;
+                margin-bottom: 0;
+            }
             @media screen and (min-width: 900px){
-                width: 177px;
-                height: 50px;
+                width: 100px;
+                height: auto;
             }
         }
 
         &-options{
-            width: calc(70% - 82px);
+            width: calc(45%);
 
             ul{
                 list-style: none;
@@ -47,36 +55,42 @@
             ul li a{
                 color: $light-yellow;
                 text-decoration: none;
-                font-size: 16px;
+                font-size: 12px;
                 font-weight: 900;
+                @media (min-width: 1255px){
+                    font-size: 14px;
+                }
             }
         }
         &-buttonContainer{
-            width: 50%;
+            width: 100%;
             display: flex;
             align-items: center;
-            justify-content: flex-end;
+            justify-content: center;
             @media screen and (min-width: 900px){
-                width: 20%;
-                justify-content: start;
+                width: 40%;
             }
+
             &-button{
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 padding: 0;
-                margin: 0 0.5rem;
-                width: 68px;
-                height: 25px;
+                margin: 0 1px;
+                width: 65px;
+                height: 30px;
                 text-decoration: none;
                 background-color: $light-yellow;
-                font-size: 11px;
+                font-size: 12px;
                 font-weight: 900;
                 color: $deep-blue;
+                @media screen and (min-width: 340px){
+                    margin: 0 5px;
+                }
                 @media screen and (min-width: 900px){
-                    width: 114px;
-                    height: 42px;
-                    font-size: 18px;
+                    width: 70px;
+                    height: 30px;
+                    font-size: 16px;
                 }
 
                 &:hover{
@@ -87,6 +101,21 @@
             .betslip{
                 color: $white;
                 background-color: $green;
+                padding: 0 5px;
+            }
+            .container-inputs{
+                display: flex;
+                &__errors{
+                    display: inline-block;
+                }
+            }
+            .form-login__input{
+                width: 90px;
+                height: 30px;
+                margin: 0 2px;
+                @media screen and (min-width: 340px){
+                    margin: 0 5px;
+                }
             }
         }
         

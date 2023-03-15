@@ -24,12 +24,27 @@
                     <li><a href="sportsbook.html">SPORTBOOK</a></li>
                     <li><a href="livewagering.html">LIVE WAGERING</a></li>
                     <li><a href="casino.html">CASINO</a></li>
-                    <li><a href="#">PROPS BUILDER</a></li>
+                    <li><a href="prop-builder.html">PROPS BUILDER</a></li>
                     <li><a href="racebook.html">RACEBOOK</a></li>
                 </ul>
             </div>
             <div class="topMenu-container-buttonContainer">
-                <a href="login.html" class="topMenu-container-buttonContainer-button">LOG IN</a>
+                <form class="form-login d-flex" name="LoginForm" action="javascript:void(0)"
+                        onsubmit="BackEndLogin(this); return false">
+                        <div class="">
+                            <div class="d-flex">
+                                <input class="form-login__input" type="text" placeholder="USERNAME" name="username" required>
+                                <input class="form-login__input" type="password" placeholder="PASSWORD" name="password" required>
+                            </div>
+                            <div class=""> 
+                                <span name="msj_loading" id="login"></span><small class="text-danger" name="msj_error_lg"></small>
+                            </div>
+                        </div>
+                        <div class="">
+                            <input class="topMenu-container-buttonContainer-button" type="submit" name="login-send" id="send" value="LOG IN">
+                            <input type="hidden" name="BackEndUrl" value="http://betslip.playcr.la/">
+                        </div>
+                </form>
                 <a href="betslip.html" class="topMenu-container-buttonContainer-button betslip">BETSLIP</a>
             </div>
         </div>
@@ -93,7 +108,7 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-        <div class="cardsContainer d-none d-xl-flex">
+        <div class="cardsContainer d-none d-md-flex">
             <a href="sportsbook.html" class="cardsContainer-item">
                 <div class="cardsContainer-item-info">
                     <p>SPORTS</p>
@@ -275,9 +290,9 @@
                 <div><a href="horsetracks.html">HORSE TRACKS</a></div>
                 <div><a href="#">AGENTS</a></div>
                 <div><a href="#">AGENTS CLASSIC</a></div>
-                <div></div>
-                <div>1-866-383-4647</div>
-                <div>1-888-606-4182</div>
+                <div>1-877-265-9110</div>
+                <div>1-888-991-9060</div>
+                <div>1-866-895-4647</div>
             </section>
         </div>
     </footer>

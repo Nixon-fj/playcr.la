@@ -18,18 +18,33 @@
             <a href="index.html" class="topMenu-container-imgContainer">
                 <img src="./img/home/logo.png" alt="Logo" width="100%" height="100%">
             </a>
-            <div class="topMenu-container-options d-none d-lg-flex">
+            <div class="topMenu-container-options d-none d-lg-flex justify-content-center">
                 <ul>
                     <li><a href="sportsbook.html">SPORTBOOK</a></li>
+                    <li><a href="livewagering.html">LIVE WAGERING</a></li>
                     <li><a href="casino.html">CASINO</a></li>
+                    <li><a href="prop-builder.html">PROPS BUILDER</a></li>
                     <li><a href="racebook.html">RACEBOOK</a></li>
-                    <li><a href="livebetting.html">LIVE BETTING</a></li>
                 </ul>
             </div>
             <div class="topMenu-container-buttonContainer">
-                <a href="login.html" class="topMenu-container-buttonContainer-button">
-                    LOG IN
-                </a>
+                <form class="form-login d-flex" name="LoginForm" action="javascript:void(0)"
+                        onsubmit="BackEndLogin(this); return false">
+                        <div class="">
+                            <div class="d-flex">
+                                <input class="form-login__input" type="text" placeholder="USERNAME" name="username" required>
+                                <input class="form-login__input" type="password" placeholder="PASSWORD" name="password" required>
+                            </div>
+                            <div class=""> 
+                                <span name="msj_loading" id="login"></span><small class="text-danger" name="msj_error_lg"></small>
+                            </div>
+                        </div>
+                        <div class="">
+                            <input class="topMenu-container-buttonContainer-button" type="submit" name="login-send" id="send" value="LOG IN">
+                            <input type="hidden" name="BackEndUrl" value="http://betslip.playcr.la/">
+                        </div>
+                </form>
+                <a href="betslip.html" class="topMenu-container-buttonContainer-button betslip">BETSLIP</a>
             </div>
         </div>
     </nav>
@@ -150,11 +165,11 @@
                 <div><a href="houserules.html">HOUSE RULES</a></div>
                 <div><a href="sportsrules.html">SPORTS RULES</a></div>
                 <div><a href="horsetracks.html">HORSE TRACKS</a></div>
-                <div><a href="https://adm.playcr.la/">AGENTS</a></div>
-                <div><a href="https://agents.playcr.la/AgentSiteV2/">AGENTS CLASSIC</a></div>
-                <div><a href="privacy.html">PRIVACY POLICY</a></div>
-                <div><a href="termsAndConditions.html">TERMS AND CONDITIONS</a></div>
-                <div><a href="responsibleGaming.html">RESPONSIBLE GAMING</a></div>
+                <div><a href="#">AGENTS</a></div>
+                <div><a href="#">AGENTS CLASSIC</a></div>
+                <div>1-877-265-9110</div>
+                <div>1-888-991-9060</div>
+                <div>1-866-895-4647</div>
             </section>
         </div>
     </footer>

@@ -25,7 +25,6 @@
 	&__container {
 		padding: 20px;
 		background-color: $light-gray;
-		margin-bottom: 40px;
 		color: $deep-blue;
 		text-align: left;
 		margin: 0;
@@ -109,11 +108,8 @@
 }
 
 .sport-rules {
-	&__table {
-		color: $deep-blue;
-	}
-	
 	&__table{
+		color: $deep-blue;
 		border-collapse: separate;
 		border-spacing: 0 5px;
 		width: 970px;
@@ -219,10 +215,8 @@
 	margin: 0;
 	position: relative;
 	padding: 8px 26px;
-	// width: 100%;
 	color: $deep-blue;
 	text-transform: uppercase;
-	font-weight: 400;
 	display: block;
 	font-weight: 500;
 	background-color: transparent;
@@ -231,10 +225,6 @@
 	word-break: break-word;
 	
 }
-
-// .accordion .a-container .a-btn p {
-// 	width: 200px;
-// }
 
 .accordion .a-container .a-btn span {
 	display: block;
@@ -292,4 +282,14 @@
 	opacity: 1;
 	max-height: 100%;
 	background-color: $light-gray;
+}
+
+.table-sports{
+	margin: 0 auto;
+	margin: 1rem;
+	border-collapse: collapse;
+	&th, td, tbody{
+		padding: 0.5rem;
+		border: 1px solid #000;
+	}
 }

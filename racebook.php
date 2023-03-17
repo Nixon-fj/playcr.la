@@ -28,29 +28,42 @@
                 </ul>
             </div>
             <div class="topMenu-container-buttonContainer">
-                <form class="form-login d-flex" name="LoginForm" action="javascript:void(0)"
-                        onsubmit="BackEndLogin(this); return false">
-                        <div class="">
-                            <div class="d-flex">
-                                <input class="form-login__input" type="text" placeholder="USERNAME" name="username" required>
-                                <input class="form-login__input" type="password" placeholder="PASSWORD" name="password" required>
-                            </div>
-                            <div class=""> 
-                                <span name="msj_loading" id="login"></span><small class="text-danger" name="msj_error_lg"></small>
-                            </div>
+                <div id="loginD">
+                    <form id="login-form" name="login-form" class="form-login d-flex" action="<?php echo LOGIN_URL; ?>" method="post"> <input type="hidden" name="952" id="952" value="<?php echo DGS_SITEID; ?>" />
+                        <input type="hidden" name="errorURL" value="<?php echo SITE_URL; ?>/?login-error" />
+                        <div class="d-flex">
+                            <input type="text" id="account" name="account" value="" placeholder="Usuario" class="form-login__input" />
+                            <input type="password" id="password" name="password" value="" placeholder="Contrase&ntilde;a" class="form-login__input" />
                         </div>
                         <div class="">
-                            <input class="topMenu-container-buttonContainer-button" type="submit" name="login-send" id="send" value="LOG IN">
-                            <input type="hidden" name="BackEndUrl" value="http://betslip.playcr.la/">
+                            <button type="submit" class="topMenu-container-buttonContainer-button" id="login-form-submit" name="login-form-submit" value="login">Acceder</button>
                         </div>
-                </form>
+                    </form>
+                </div>
+                <!-- ********************************mobile************************************************ -->
+
+                <div id="loginM">
+                    <form id="login-form" name="login-form" class="form-login d-flex" action="<?php echo M_LOGIN_URL; ?>" method="post">   <input type="hidden" name="952" id="952" value="<?php echo DGS_SITEID; ?>" />
+                        <input type="hidden" name="errorURL" value="<?php echo SITE_URL; ?>/?login-error" />
+                        <div class="d-flex">
+                            <input type="text" id="account" name="account" placeholder="Usuario" class="form-login__input" />
+                            <input type="password" id="password" name="password" placeholder="Contrase&ntilde;a" class="form-login__input" />
+                        </div>
+                        <div class="">
+                            <button type="submit" class="topMenu-container-buttonContainer-button" id="login-form-submit" name="login-form-submit" value="login">Acceder</button>
+                        </div>
+                    </form>
+                </div>
+
+
                 <a href="betslip.html" class="topMenu-container-buttonContainer-button betslip">BETSLIP</a>
             </div>
         </div>
     </nav>
     <main role="main">
-        <iframe width="100%" height="800px" class="cs-iframe-signup-page"
-            src="https://plive.jazzsports.ag/live/?skin=jazzsports#!" title="iframe-signup"></iframe>
+        <iframe width="100%" height="1500px" id="iframe-signup-page" class="cs-iframe-signup-page"
+            src="https://jefecolchon.com/BOSSWagering/Racebook/InternetBetTaker/?siteid=jazz&amp;lng=en-EN"
+            title="iframe-signup"></iframe>
     </main>
     <div class="footerNav d-flex d-lg-none">
         <div class="topMenu-container">

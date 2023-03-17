@@ -7,8 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="sitio de apuestas playcr">
     <link rel="shortcut icon" href="./img/icons/fav.ico" type="image/x-icon">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="public/css/styles.css">
     <title>playcr</title>
 </head>
@@ -29,22 +28,34 @@
                 </ul>
             </div>
             <div class="topMenu-container-buttonContainer">
-                <form class="form-login d-flex" name="LoginForm" action="javascript:void(0)"
-                        onsubmit="BackEndLogin(this); return false">
-                        <div class="">
-                            <div class="d-flex">
-                                <input class="form-login__input" type="text" placeholder="USERNAME" name="username" required>
-                                <input class="form-login__input" type="password" placeholder="PASSWORD" name="password" required>
-                            </div>
-                            <div class=""> 
-                                <span name="msj_loading" id="login"></span><small class="text-danger" name="msj_error_lg"></small>
-                            </div>
+                <div id="loginD">
+                    <form id="login-form" name="login-form" class="form-login d-flex" action="<?php echo LOGIN_URL; ?>" method="post"> <input type="hidden" name="952" id="952" value="<?php echo DGS_SITEID; ?>" />
+                        <input type="hidden" name="errorURL" value="<?php echo SITE_URL; ?>/?login-error" />
+                        <div class="d-flex">
+                            <input type="text" id="account" name="account" value="" placeholder="Usuario" class="form-login__input" />
+                            <input type="password" id="password" name="password" value="" placeholder="Contrase&ntilde;a" class="form-login__input" />
                         </div>
                         <div class="">
-                            <input class="topMenu-container-buttonContainer-button" type="submit" name="login-send" id="send" value="LOG IN">
-                            <input type="hidden" name="BackEndUrl" value="http://betslip.playcr.la/">
+                            <button type="submit" class="topMenu-container-buttonContainer-button" id="login-form-submit" name="login-form-submit" value="login">Acceder</button>
                         </div>
-                </form>
+                    </form>
+                </div>
+                <!-- ********************************mobile************************************************ -->
+
+                <div id="loginM">
+                    <form id="login-form" name="login-form" class="form-login d-flex" action="<?php echo M_LOGIN_URL; ?>" method="post">   <input type="hidden" name="952" id="952" value="<?php echo DGS_SITEID; ?>" />
+                        <input type="hidden" name="errorURL" value="<?php echo SITE_URL; ?>/?login-error" />
+                        <div class="d-flex">
+                            <input type="text" id="account" name="account" placeholder="Usuario" class="form-login__input" />
+                            <input type="password" id="password" name="password" placeholder="Contrase&ntilde;a" class="form-login__input" />
+                        </div>
+                        <div class="">
+                            <button type="submit" class="topMenu-container-buttonContainer-button" id="login-form-submit" name="login-form-submit" value="login">Acceder</button>
+                        </div>
+                    </form>
+                </div>
+
+
                 <a href="betslip.html" class="topMenu-container-buttonContainer-button betslip">BETSLIP</a>
             </div>
         </div>
@@ -52,12 +63,9 @@
     <main role="main">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active carriusel-item-container">
@@ -65,8 +73,7 @@
                         <div class="carrousel-main-containerInfo">
                             <h2>BET ON SPORTS LIVE WAGER</h2>
                         </div>
-                        <div class="carrousel-main-containerImg"><img src="./img/home/player.png" alt="sports"
-                                width="100%" height="auto">
+                        <div class="carrousel-main-containerImg"><img src="./img/home/player.png" alt="sports" width="100%" height="auto">
                         </div>
 
                     </div>
@@ -77,8 +84,7 @@
                         <div class="carrousel-main-containerInfo">
                             <h2>RACEBOOK</h2>
                         </div>
-                        <div class="carrousel-main-containerImg"><img src="./img/home/horse.png" alt="sports"
-                                width="100%" height="auto">
+                        <div class="carrousel-main-containerImg"><img src="./img/home/horse.png" alt="sports" width="100%" height="auto">
                         </div>
 
                     </div>
@@ -89,21 +95,18 @@
                         <div class="carrousel-main-containerInfo">
                             <h2>ONLINE CASINO</h2>
                         </div>
-                        <div class="carrousel-main-containerImg"><img src="./img/home/casino elemnts.png" alt="sports"
-                                width="100%" height="auto">
+                        <div class="carrousel-main-containerImg"><img src="./img/home/casino elemnts.png" alt="sports" width="100%" height="auto">
                         </div>
 
                     </div>
 
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
@@ -134,8 +137,7 @@
                 </div>
             </a>
         </div>
-        <div id="carouselExamplemobile" class="carousel slide d-none d-md-block d-xl-none carrousel-mobile"
-            data-bs-ride="carousel">
+        <div id="carouselExamplemobile" class="carousel slide d-none d-md-block d-xl-none carrousel-mobile" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="cards-container">
@@ -255,22 +257,22 @@
                             SPORTs
                         </a></li>
                     <li><a href="livewagering.html">
-                        <div class="icon-container "><img src="./img/icons/live.png" alt="WAGERING"></div>
-                        LIVE WAGERING
-                    </a></li>
+                            <div class="icon-container "><img src="./img/icons/live.png" alt="WAGERING"></div>
+                            LIVE WAGERING
+                        </a></li>
                     <li><a href="casino.html">
                             <div class="icon-container"><img src="./img/icons/casino.png" alt="casino"></div>
                             CASINO
                         </a></li>
                     <li><a href="#">
-                        <div class="icon-container"><img src="./img/icons/casino.png" alt="casino"></div>
-                        PROPS BUILDER
-                    </a></li>
+                            <div class="icon-container"><img src="./img/icons/casino.png" alt="casino"></div>
+                            PROPS BUILDER
+                        </a></li>
                     <li><a href="racebook.html">
                             <div class="icon-container horse"><img src="./img/icons/racebook.png" alt="racebook"></div>
                             RACEBOOK
                         </a></li>
-                    
+
                 </ul>
             </div>
         </div>
@@ -296,9 +298,7 @@
             </section>
         </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 
 </html>

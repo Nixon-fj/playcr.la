@@ -1,6 +1,6 @@
 <?php
-define("SITE_NAME","Play CR");
-define("DOMAIN_NAME","Playcr.la");
+define("SITE_NAME","Play Cr");
+define("DOMAIN_NAME","playcr.la");
 define("DGS_SITEID","952");
 $mobileEnabled = true;
 

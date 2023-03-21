@@ -1,3 +1,9 @@
+<?php
+
+require_once "./conf.php";
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -29,28 +35,28 @@
             </div>
             <div class="topMenu-container-buttonContainer">
                 <div id="loginD" class="d-none d-lg-block">
-                    <form id="login-form" name="login-form" class="form-login d-flex" action="<?php echo LOGIN_URL; ?>" method="post"> <input type="hidden" name="952" id="952" value="<?php echo DGS_SITEID; ?>" />
-                        <input type="hidden" name="errorURL" value="<?php echo SITE_URL; ?>/?login-error" />
+                    <form id="login-form" name="login-form" class="form-login d-flex" action="<?php echo LOGIN_URL; ?>" method="post"> <input type="hidden" name="siteID" id="siteID" value="952" />
+                        <input type="hidden" name="errorURL" value="<?php echo SITE_URL; ?>?login-error"/>
                         <div class="d-flex">
-                            <input type="text" id="account" name="account" value="" placeholder="Usuario" class="form-login__input" />
-                            <input type="password" id="password" name="password" value="" placeholder="Contrase&ntilde;a" class="form-login__input" />
+                            <input type="text" id="account" name="account" value="" placeholder="Username" class="form-login__input"/>
+                            <input type="password" id="password" name="password" value="" placeholder="Password" class="form-login__input"/>
                         </div>
-                        <div class="">
-                            <button type="submit" class="topMenu-container-buttonContainer-button" id="login-form-submit" name="login-form-submit" value="login">Acceder</button>
+                        <div>
+                            <button type="submit" class="topMenu-container-buttonContainer-button" id="login-form-submit" name="login-form-submit" value="login">Login</button>
                         </div>
                     </form>
                 </div>
                 <!-- ********************************mobile************************************************ -->
 
                 <div id="loginM" class="d-block d-lg-none">
-                    <form id="login-form" name="login-form" class="form-login d-flex" action="<?php echo M_LOGIN_URL; ?>" method="post">   <input type="hidden" name="952" id="952" value="<?php echo DGS_SITEID; ?>" />
-                        <input type="hidden" name="errorURL" value="<?php echo SITE_URL; ?>/?login-error" />
+                    <form id="login-form" name="login-form" class="form-login d-flex" action="<?php echo LOGIN_URL; ?>" method="post"><input type="hidden" name="siteID" id="siteID" value="952" />
+                        <input type="hidden" name="errorURL" value="<?php echo SITE_URL; ?>?login-error" />
                         <div class="d-flex">
-                            <input type="text" id="account" name="account" placeholder="Usuario" class="form-login__input" />
-                            <input type="password" id="password" name="password" placeholder="Contrase&ntilde;a" class="form-login__input" />
+                            <input type="text" id="account" name="account" placeholder="Username" class="form-login__input" />
+                            <input type="password" id="password" name="password" placeholder="Password" class="form-login__input" />
                         </div>
                         <div class="">
-                            <button type="submit" class="topMenu-container-buttonContainer-button" id="login-form-submit" name="login-form-submit" value="login">Acceder</button>
+                            <button type="submit" class="topMenu-container-buttonContainer-button" id="login-form-submit" name="login-form-submit" value="login">Login</button>
                         </div>
                     </form>
                 </div>

@@ -15,20 +15,20 @@
 <body>
     <nav class="topMenu">
         <div class="topMenu-container">
-            <a href="index.html" class="topMenu-container-imgContainer">
+            <a href="index.php" class="topMenu-container-imgContainer">
                 <img src="./img/home/logo.svg" alt="Logo" width="100%" height="100%">
             </a>
             <div class="topMenu-container-options d-none d-lg-flex justify-content-center">
                 <ul>
-                    <li><a href="sportsbook.html">SPORTBOOK</a></li>
-                    <li><a href="livewagering.html">LIVE WAGERING</a></li>
-                    <li><a href="casino.html">CASINO</a></li>
-                    <li><a href="prop-builder.html">PROPS BUILDER</a></li>
-                    <li><a href="racebook.html">RACEBOOK</a></li>
+                    <li><a href="sportsbook.php">SPORTBOOK</a></li>
+                    <li><a href="livewagering.php">LIVE WAGERING</a></li>
+                    <li><a href="casino.php">CASINO</a></li>
+                    <li><a href="prop-builder.php">PROPS BUILDER</a></li>
+                    <li><a href="racebook.php">RACEBOOK</a></li>
                 </ul>
             </div>
             <div class="topMenu-container-buttonContainer">
-                <div id="loginD">
+                <div id="loginD" class="d-none d-lg-block">
                     <form id="login-form" name="login-form" class="form-login d-flex" action="<?php echo LOGIN_URL; ?>" method="post"> <input type="hidden" name="952" id="952" value="<?php echo DGS_SITEID; ?>" />
                         <input type="hidden" name="errorURL" value="<?php echo SITE_URL; ?>/?login-error" />
                         <div class="d-flex">
@@ -42,7 +42,7 @@
                 </div>
                 <!-- ********************************mobile************************************************ -->
 
-                <div id="loginM">
+                <div id="loginM" class="d-block d-lg-none">
                     <form id="login-form" name="login-form" class="form-login d-flex" action="<?php echo M_LOGIN_URL; ?>" method="post">   <input type="hidden" name="952" id="952" value="<?php echo DGS_SITEID; ?>" />
                         <input type="hidden" name="errorURL" value="<?php echo SITE_URL; ?>/?login-error" />
                         <div class="d-flex">
@@ -56,7 +56,7 @@
                 </div>
 
 
-                <a href="betslip.html" class="topMenu-container-buttonContainer-button betslip">BETSLIP</a>
+                <a href="betslip.php" class="topMenu-container-buttonContainer-button betslip">BETSLIP</a>
             </div>
         </div>
     </nav>
@@ -81,56 +81,56 @@
             </div>
             <div class="casino-games__layout">
                 <div class="casino-games__layout--col1">
-                    <div class="casino-games__layout--grid"><a class="casino-games__layout--card" href="login.html"><img
+                    <div class="casino-games__layout--grid"><a class="casino-games__layout--card" href="betslip.php"><img
                                 class="casino-games__layout--card-img" src="img/casino/live-game.png"
                                 alt="Juegos en vivo">
                             <h3 class="casino-games__layout--h3">LIVE GAMES</h3>
-                        </a><a class="casino-games__layout--card" href="login.html"><img
+                        </a><a class="casino-games__layout--card" href="betslip.php"><img
                                 class="casino-games__layout--card-img" src="img/casino/table-games.png"
                                 alt="Juegos de mesa">
                             <h3 class="casino-games__layout--h3">TABLE GAMES</h3>
-                        </a><a class="casino-games__layout--card" href="login.html"><img
+                        </a><a class="casino-games__layout--card" href="betslip.php"><img
                                 class="casino-games__layout--card-img" src="img/casino/slots.png" alt="Slots">
                             <h3 class="casino-games__layout--h3">SLOTS</h3>
-                        </a><a class="casino-games__layout--card" href="login.html"><img
+                        </a><a class="casino-games__layout--card" href="betslip.php"><img
                                 class="casino-games__layout--card-img" src="img/casino/3d-slots.png" alt="3D Slots">
                             <h3 class="casino-games__layout--h3">SLOTS 3D</h3>
-                        </a><a class="casino-games__layout--card" href="login.html"><img
+                        </a><a class="casino-games__layout--card" href="betslip.php"><img
                                 class="casino-games__layout--card-img" src="img/casino/video-poker.png"
                                 alt="Video Poker">
                             <h3 class="casino-games__layout--h3">VIDEO POKER</h3>
-                        </a><a class="casino-games__layout--card" href="login.html"><img
+                        </a><a class="casino-games__layout--card" href="betslip.php"><img
                                 class="casino-games__layout--card-img" src="img/casino/virtual-sports.png"
                                 alt="Deportes Virtuales">
                             <h3 class="casino-games__layout--h3">VIRTUAL SPORTS</h3>
-                        </a><a class="casino-games__layout--card" href="login.html"><img
+                        </a><a class="casino-games__layout--card" href="betslip.php"><img
                                 class="casino-games__layout--card-img" src="img/casino/bingo.png" alt="Bingo">
                             <h3 class="casino-games__layout--h3">BINGO</h3>
-                        </a><a class="casino-games__layout--card" href="login.html"><img
+                        </a><a class="casino-games__layout--card" href="betslip.php"><img
                                 class="casino-games__layout--card-img" src="img/casino/keno.png" alt="Keno">
                             <h3 class="casino-games__layout--h3">KENO</h3>
-                        </a><a class="casino-games__layout--card" href="login.html"><img
+                        </a><a class="casino-games__layout--card" href="betslip.php"><img
                                 class="casino-games__layout--card-img" src="img/casino/scratch.png"
                                 alt="Tarjetas de raspar">
                             <h3 class="casino-games__layout--h3">SCRATCH CARDS</h3>
-                        </a><a class="casino-games__layout--card" href="login.html"><img
+                        </a><a class="casino-games__layout--card" href="betslip.php"><img
                                 class="casino-games__layout--card-img" src="img/casino/fixed-odds.png"
                                 alt="Apuetas fijas">
                             <h3 class="casino-games__layout--h3">FIXED ODDS</h3>
-                        </a><a class="casino-games__layout--card" href="login.html"><img
+                        </a><a class="casino-games__layout--card" href="betslip.php"><img
                                 class="casino-games__layout--card-img" src="img/casino/other-games.png"
                                 alt="Otros juegos">
                             <h3 class="casino-games__layout--h3">OTHER GAMES</h3>
-                        </a><a class="casino-games__layout--card" href="login.html"><img
+                        </a><a class="casino-games__layout--card" href="betslip.php"><img
                                 class="casino-games__layout--card-img" src="img/casino/blackjack.png" alt="Blackjack">
                             <h3 class="casino-games__layout--h3">BLACKJACK</h3>
-                        </a><a class="casino-games__layout--card" href="login.html"><img
+                        </a><a class="casino-games__layout--card" href="betslip.php"><img
                                 class="casino-games__layout--card-img" src="img/casino/roulette.png" alt="Ruleta">
                             <h3 class="casino-games__layout--h3">ROULETTE</h3>
-                        </a><a class="casino-games__layout--card" href="login.html"><img
+                        </a><a class="casino-games__layout--card" href="betslip.php"><img
                                 class="casino-games__layout--card-img" src="img/casino/poker.png" alt="Poker">
                             <h3 class="casino-games__layout--h3">POKER</h3>
-                        </a><a class="casino-games__layout--card" href="login.html"><img
+                        </a><a class="casino-games__layout--card" href="betslip.php"><img
                                 class="casino-games__layout--card-img" src="img/casino/rummy.png" alt="Rummy">
                             <h3 class="casino-games__layout--h3">RUMMY</h3>
                         </a>
@@ -144,23 +144,23 @@
         <div class="topMenu-container">
             <div class="topMenu-container-options">
                 <ul>
-                    <li><a href="sportsbook.html">
+                    <li><a href="sportsbook.php">
                             <div class="icon-container"><img src="./img/icons/sports.png" alt="sportsbook"></div>
                             SPORTs
                         </a></li>
-                    <li><a href="livewagering.html">
+                    <li><a href="livewagering.php">
                         <div class="icon-container "><img src="./img/icons/live.png" alt="WAGERING"></div>
                         LIVE WAGERING
                     </a></li>
-                    <li><a href="casino.html">
+                    <li><a href="casino.php">
                             <div class="icon-container"><img src="./img/icons/casino.png" alt="casino"></div>
                             CASINO
                         </a></li>
-                    <li><a href="#">
+                    <li><a href="prop-builder.php">
                         <div class="icon-container"><img src="./img/icons/casino.png" alt="casino"></div>
                         PROPS BUILDER
                     </a></li>
-                    <li><a href="racebook.html">
+                    <li><a href="racebook.php">
                             <div class="icon-container horse"><img src="./img/icons/racebook.png" alt="racebook"></div>
                             RACEBOOK
                         </a></li>
@@ -170,20 +170,20 @@
         </div>
     </div>
     <footer>
-        <a href="index.html">
+        <a href="index.php">
             <img src="./img/home/logo.svg" alt="logo">
         </a>
         <div class="footer-list">
             <section>
-                <div><a href="sportsbook.html">SPORTBOOK</a></div>
-                <div><a href="racebook.html">RACEBOOK</a></div>
-                <div><a href="livebetting.html">LIVE BETTING</a></div>
-                <div><a href="casino.html">CASINO</a></div>
-                <div><a href="houserules.html">HOUSE RULES</a></div>
-                <div><a href="sportsrules.html">SPORTS RULES</a></div>
-                <div><a href="horsetracks.html">HORSE TRACKS</a></div>
-                <div><a href="#">AGENTS</a></div>
-                <div><a href="#">AGENTS CLASSIC</a></div>
+                <div><a href="sportsbook.php">SPORTBOOK</a></div>
+                <div><a href="racebook.php">RACEBOOK</a></div>
+                <div><a href="livebetting.php">LIVE BETTING</a></div>
+                <div><a href="casino.php">CASINO</a></div>
+                <div><a href="houserules.php">HOUSE RULES</a></div>
+                <div><a href="sportsrules.php">SPORTS RULES</a></div>
+                <div><a href="horsetracks.php">HORSE TRACKS</a></div>
+                <div><a href="https://adm.playcr.la/">AGENTS</a></div>
+                <div><a href="https://agents.playcr.la/AgentSiteV2/">AGENTS CLASSIC</a></div>
                 <div>1-877-265-9110</div>
                 <div>1-888-991-9060</div>
                 <div>1-866-895-4647</div>

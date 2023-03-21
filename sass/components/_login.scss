@@ -1,17 +1,3 @@
-#loginD{
-    display: none;
-}
-#loginM{
-    display: block;
-}
-@media (min-width: 990px) {
-    #loginM{
-        display: none;
-    }
-    #loginD{
-        display: block;
-    }
-}
 .login-container{
     margin: 0 auto;
     width: calc(100% - 30px);

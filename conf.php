@@ -5,4 +5,5 @@ define("DGS_SITEID","952");
 $mobileEnabled = true;
 
 require "C:\\inetpub\\wwwroot\\generalConfig.php";
+
 ?>

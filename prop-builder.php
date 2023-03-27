@@ -62,7 +62,7 @@ require_once "./conf.php";
                 </div>
 
 
-                <a href="betslip.php" class="topMenu-container-buttonContainer-button betslip">BITCOINBAY</a>
+                <a href="betslip.php" class="topMenu-container-buttonContainer-button betslip">BETSLIP</a>
             </div>
         </div>
     </nav>

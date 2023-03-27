@@ -62,7 +62,7 @@ require_once "./conf.php";
                 </div>
 
 
-                <a href="betslip.php" class="topMenu-container-buttonContainer-button betslip">BETSLIP</a>
+                <a href="betslip.php" class="topMenu-container-buttonContainer-button betslip">BITCOINBAY</a>
             </div>
         </div>
     </nav>
@@ -70,7 +70,7 @@ require_once "./conf.php";
         <div class="login-container">
             <div class="login-container-form">
                 <div class="signUp">
-                    <h2>BETSLIP</h2>
+                    <h2>BITCOINBAY</h2>
                     <form class="signUp__form" name="LoginForm" action="javascript:void(0)"
                         onsubmit="BackEndLogin(this); return false">
                         <label class="signUp__form--label" for="username">USERNAME</label>
@@ -96,7 +96,7 @@ require_once "./conf.php";
                 <ul>
                     <li><a href="sportsbook.php">
                             <div class="icon-container"><img src="./img/icons/sports.svg" alt="sportsbook"></div>
-                            SPORTs
+                            SPORTS
                         </a></li>
                     <li><a href="livewagering.php">
                         <div class="icon-container "><img src="./img/icons/live.svg" alt="WAGERING"></div>

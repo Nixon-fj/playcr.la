@@ -61,7 +61,7 @@ require_once "./conf.php";
                 </div>
 
 
-                <a href="betslip.php" class="topMenu-container-buttonContainer-button betslip">BETSLIP</a>
+                <a href="betslip.php" class="topMenu-container-buttonContainer-button betslip">BITCOINBAY</a>
             </div>
         </div>
     </nav>
@@ -2036,7 +2036,7 @@ sets win.
             <ul>
                     <li><a href="sportsbook.php">
                             <div class="icon-container"><img src="./img/icons/sports.svg" alt="sportsbook"></div>
-                            SPORTs
+                            SPORTS
                         </a></li>
                     <li><a href="livewagering.php">
                         <div class="icon-container "><img src="./img/icons/live.svg" alt="WAGERING"></div>

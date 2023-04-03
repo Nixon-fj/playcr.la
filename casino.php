@@ -78,11 +78,11 @@ require_once "./conf.php";
         </div>
         <section class="casino-games">
             <div class="casino-information-container">
-                <h2>PlayCr.la REAL MONEY CASINO DEALS UP THE LATEST AND GREATEST CASINO SOFTWARE FOR PLAYERS TO ENJOY.
+                <h2>Playcr real money casino deals up the latest and greatest casino software for players to enjoy.
                 </h2>
                 <p>Experience the same excitement as you would in Vegas, Atlantic City or Monte Carlo in the comfort of
                     your home, office or on the road. Players looking to only play casino games can take advantage of
-                    our huge 100% casino bonus offer. Start your winning streak today by joining PlayCr.</p>
+                    our huge 100% casino bonus offer. Start your winning streak today by joining Playcr.</p>
             </div>
             <div class="casino-games__layout">
                 <div class="casino-games__layout--col1">
@@ -187,8 +187,8 @@ require_once "./conf.php";
                 <div><a href="houserules.php">HOUSE RULES</a></div>
                 <div><a href="sportsrules.php">SPORTS RULES</a></div>
                 <div><a href="horsetracks.php">HORSE TRACKS</a></div>
-                <div><a href="https://agents.playcr.la/AgentSiteV2/">AGENTS</a></div>
                 <div><a href="https://adm.playcr.la/">AGENTS CLASSIC</a></div>
+                <div><a href="https://agents.playcr.la/AgentSiteV2/">AGENTS NEW</a></div>
                 <div>1-877-265-9110</div>
                 <div>1-888-991-9060</div>
                 <div>1-866-895-4647</div>

@@ -296,8 +296,8 @@ require_once "./conf.php";
                 <div><a href="houserules.php">HOUSE RULES</a></div>
                 <div><a href="sportsrules.php">SPORTS RULES</a></div>
                 <div><a href="horsetracks.php">HORSE TRACKS</a></div>
-                <div><a href="https://agents.playcr.la/AgentSiteV2/">AGENTS</a></div>
                 <div><a href="https://adm.playcr.la/">AGENTS CLASSIC</a></div>
+                <div><a href="https://agents.playcr.la/AgentSiteV2/">AGENTS NEW</a></div>
                 <div>1-877-265-9110</div>
                 <div>1-888-991-9060</div>
                 <div>1-866-895-4647</div>

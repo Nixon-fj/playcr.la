@@ -123,3 +123,21 @@
         
     }
 }
+
+.topnav-login{
+    &__form{
+        display: flex;
+    }
+    &__input{
+        margin: 0 0.5rem;
+        width: 100px;
+        border-radius: 5px;
+        border: none;
+    }
+    &__btn{
+        border: none;
+        border-radius: 5px;
+        padding: 0.5rem;
+        background-color: $light-yellow;
+    }
+}

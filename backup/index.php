@@ -34,15 +34,35 @@ require_once "./conf.php";
                 </ul>
             </div>
             <div class="topMenu-container-buttonContainer">
-                <div class="topnav-login">
-                    <form class="topnav-login__form" name="LoginForm" action="javascript:void(0)" onsubmit="BackEndLogin(this); return false">
-                        <input class="topnav-login__input" type="text" placeholder="USERNAME" name="username" required>
-                        <input class="topnav-login__input" type="password" placeholder="PASSWORD" name="password" required>
-                        <div class="topnav-login__error"> <span name="msj_loading" id="betslip"></span><small class="text-danger" name="msj_error_lg"></small></div>
-                        <input class="topnav-login__btn" type="submit" name="send" id="betslip-send" value="LOGIN">
-                        <input type="hidden" name="BackEndUrl" value="https://betslip.playcr.la/">
+                <div id="loginD" class="d-none d-lg-block">
+                    <form id="login-form" name="login-form" class="form-login d-flex" action="<?php echo LOGIN_URL; ?>" method="post"> <input type="hidden" name="siteID" id="siteID" value="<?php echo DGS_SITEID; ?>" />
+                        <input type="hidden" name="errorURL" value="<?php echo SITE_URL; ?>?login-error"/>
+                        <div class="d-flex">
+                            <input type="text" id="account" name="account" value="" placeholder="Username" class="form-login__input"/>
+                            <input type="password" id="password" name="password" value="" placeholder="Password" class="form-login__input"/>
+                        </div>
+                        <div>
+                            <button type="submit" class="topMenu-container-buttonContainer-button" id="login-form-submit" name="login-form-submit" value="login">LOGIN</button>
+                        </div>
                     </form>
                 </div>
+                <!-- ********************************mobile************************************************ -->
+
+                <div id="loginM" class="d-block d-lg-none">
+                    <form id="login-form" name="login-form" class="form-login d-flex" action="<?php echo M_LOGIN_URL; ?>" method="post"><input type="hidden" name="siteID" id="siteID" value="<?php echo DGS_SITEID; ?>" />
+                        <input type="hidden" name="errorURL" value="<?php echo SITE_URL; ?>?login-error" />
+                        <div class="d-flex">
+                            <input type="text" id="account" name="account" placeholder="Username" class="form-login__input" />
+                            <input type="password" id="password" name="password" placeholder="Password" class="form-login__input" />
+                        </div>
+                        <div class="">
+                            <button type="submit" class="topMenu-container-buttonContainer-button" id="login-form-submit" name="login-form-submit" value="login">LOGIN</button>
+                        </div>
+                    </form>
+                </div>
+
+
+                <a href="betslip.php" class="topMenu-container-buttonContainer-button betslip">BETSLIP</a>
             </div>
         </div>
     </nav>
@@ -237,28 +257,28 @@ require_once "./conf.php";
     <div class="footerNav d-flex d-lg-none">
         <div class="topMenu-container">
             <div class="topMenu-container-options">
-                <ul>
+            <ul>
                     <li><a href="sportsbook.php">
                             <div class="icon-container"><img src="./img/icons/sports.svg" alt="sportsbook"></div>
                             SPORTS
                         </a></li>
                     <li><a href="livewagering.php">
-                            <div class="icon-container "><img src="./img/icons/live.svg" alt="WAGERING"></div>
-                            LIVE WAGERING
-                        </a></li>
+                        <div class="icon-container "><img src="./img/icons/live.svg" alt="WAGERING"></div>
+                        LIVE WAGERING
+                    </a></li>
                     <li><a href="casino.php">
                             <div class="icon-container"><img src="./img/icons/casino.svg" alt="casino"></div>
                             CASINO
                         </a></li>
                     <li><a href="prop-builder.php">
-                            <div class="icon-container"><img src="./img/icons/icon-props.svg" alt="casino"></div>
-                            PROPS BUILDER
-                        </a></li>
+                        <div class="icon-container"><img src="./img/icons/icon-props.svg" alt="casino"></div>
+                        PROPS BUILDER
+                    </a></li>
                     <li><a href="racebook.php">
                             <div class="icon-container horse"><img src="./img/icons/racebook.svg" alt="racebook"></div>
                             RACEBOOK
                         </a></li>
-
+                    
                 </ul>
             </div>
         </div>

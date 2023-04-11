@@ -59,7 +59,7 @@ require_once "./conf.php";
         <section class="casino-games">
             <div class="casino-information-container">
                 <h2>
-                    PLAYCR.LA RACEBOOK OFFERS WORLD-CLASS HORSE RACING FROM AROUND THE WORLD!
+                    PLAYCR RACEBOOK OFFERS WORLD-CLASS HORSE RACING FROM AROUND THE WORLD!
                 </h2>
                 <p>
                     Bet the Breeders Cup, famous Australian tracks, the Hong Kong Jockey Club or even your local

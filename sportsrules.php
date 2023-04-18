@@ -1892,7 +1892,6 @@ sets win.
                                 </ol>
                             </div>
                         </div>
-
                         <div class="a-container">
                             <p class="a-btn" id="water-polo">Water Polo <span></span></p>
                             <div class="a-panel">
@@ -1969,7 +1968,7 @@ sets win.
                             </div>
                         </div>
                         <div class="a-container">
-                            <p class="a-btn" id="liveingame">Live in-game lines wagering<span></span></p>
+                            <p class="a-btn" id="liveInGame">Live in-game lines wagering<span></span></p>
                             <div class="a-panel">
                                 <ul>
                                     <li>Live In-Game Lines are available for Straight Wagers and internet wagering only.
@@ -2061,6 +2060,7 @@ sets win.
         </div>
     </footer>
     <script src="./js/index.js"></script>
+    <script src="./js/sportsrules.js"></script>
     <script src="https://images.betimages.com/Betslip/js/quick.login.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"

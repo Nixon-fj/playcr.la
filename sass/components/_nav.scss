@@ -124,6 +124,10 @@
     }
 }
 
+.topMenu.position {
+    position: static;
+}
+
 .topnav-login{
     &__form{
         display: flex;

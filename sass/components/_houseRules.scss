@@ -1,4 +1,4 @@
-.house-rules{
+.house-rules {
     padding: 3rem 0;
     background-color: $light-gray;
 
@@ -7,16 +7,19 @@
     margin-right: auto;
     margin-left: auto;
 }
-.house-information-container{
+
+.house-information-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     color: $deep-blue;
-    h2{
+
+    h2 {
         text-align: center;
         font-weight: bold;
     }
-    p{
+
+    p {
         margin: 10px;
         background-color: white;
         padding: 15px;
@@ -25,16 +28,107 @@
         text-align: center;
     }
 
-    span{
+    span {
         font-weight: bold;
     }
 }
-.hose-rules-list{
+.rules-page{
+    padding: 0.5rem;
+    max-width: 100%;
+}
+.hose-rules-list {
     padding-right: 35px;
     padding-left: 35px;
 
-    li{
+    li {
         margin-top: 10px;
         margin-bottom: 10px;
+    }
+}
+
+table {
+    width: 100%;
+    border: 0px;
+    border-collapse: collapse;
+    min-width: 500px;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+
+    .colum-4 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .colum-3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    td,
+    th {
+        min-width: 55px;
+        height: 55px;
+        padding: 8px 10px;
+        box-sizing: border-box;
+        border: 1px solid;
+
+        img {
+            width: 32px;
+            height: 32px;
+            object-fit: contain;
+            object-position: center;
+        }
+
+        &.week-group-title {
+            padding: 15px;
+            text-align: center !important;
+            background-color: black;
+        }
+
+        &:nth-child(2) {
+            text-align: left;
+        }
+    }
+
+    .flag-td {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.max-container {
+    max-width: 1280px;
+
+}
+
+.heading__content {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.sport-rules {
+    h3 {
+        margin: 1rem 0;
+    }
+
+    h4 {
+        margin: 1rem 0;
+    }
+
+    li {
+        margin-bottom: 1rem;
+    }
+}
+
+table th {
+    min-width: 55px;
+    height: 55px;
+    padding: 8px 10px;
+    box-sizing: border-box;
+    border: 1px solid;
+}
+@media (max-width: 1000px) {
+    .tables-sport-rules{
+        overflow-x: scroll;
     }
 }

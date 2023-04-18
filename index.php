@@ -275,6 +275,7 @@ require_once "./conf.php";
                 <div><a href="casino.php">CASINO</a></div>
                 <div><a href="houserules.php">HOUSE RULES</a></div>
                 <div><a href="sportsrules.php">SPORTS RULES</a></div>
+                <div><a href="horserules.php">HORSE RULES</a></div>
                 <div><a href="horsetracks.php">HORSE TRACKS</a></div>
                 <div><a href="https://agents.playcr.la/AgentSiteV2/" target="_blank">AGENTS CLASSIC</a></div>
                 <div><a href="https://adm.playcr.la/" target="_blank">AGENTS NEW</a></div>

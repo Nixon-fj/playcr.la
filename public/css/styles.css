@@ -1354,7 +1354,7 @@ footer {
             footer div section div:nth-child(3) {
               order: 9; }
             footer div section div:nth-child(4) {
-              order: 2; }
+              order: 13; }
             footer div section div:nth-child(5) {
               order: 6; }
             footer div section div:nth-child(6) {
@@ -1362,15 +1362,17 @@ footer {
             footer div section div:nth-child(7) {
               order: 3; }
             footer div section div:nth-child(8) {
-              order: 7; }
+              order: 2; }
             footer div section div:nth-child(9) {
               order: 11; }
             footer div section div:nth-child(10) {
-              order: 12; }
+              order: 7; }
             footer div section div:nth-child(11) {
               order: 4; }
             footer div section div:nth-child(12) {
-              order: 8; } }
+              order: 8; }
+            footer div section div:nth-child(13) {
+              order: 12; } }
         footer div section div a {
           display: block;
           text-align: left;

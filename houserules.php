@@ -11,8 +11,7 @@ require_once "./conf.php";
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./img/icons/fav.ico" type="image/x-icon">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="public/css/styles.css">
     <title>Play CR</title>
 </head>
@@ -186,39 +185,7 @@ require_once "./conf.php";
                         applicable.
                     </li>
                     <li>
-                        All payout requests are accepted five days a week; from 7am through 7pm. Customer covers ALL
-                        OUTGOING FEES. Payouts are sent the same way as deposits are received. All bonuses on Deposits
-                        come with a rollover attached.
-                    </li>
-                    <li>
-                        <span>PLAYCR</span> reserves the right to process any payout request in dollars of United
-                        States of America
-                        or the local currency of the country where the customer requested it. PLAYCR will use the local
-                        exchange rate of the day where customer receives his/her payout.
-                    </li>
-                    <li>
-                        Casino, Future and Horse wagering will not count towdards any sportsbook bonus rollover
-                        requirements.
-                    </li>
-                    <li>
-                        Members are not permitted to open multiple accounts. Performing such an action may trigger an
-                        audit of the member’s accounts. If multiple accounts have been used then all bets may be voided,
-                        accounts may be inactivated and winnings may be forfeited. <span>PLAYCR</span> is a
-                        recreational sportsbook
-                        only. Syndicated or professional play could result in the account being closed and all winnings
-                        being forfeited.
-                    </li>
-                    <li>
-                        The maximum payout for any parlay is 500/1.
-                    </li>
-                    <li>
-                        Any account inactive after 6 months without management agreement will be zeroed out and closed.
-                    </li>
-                    <li>
-                        *All depositing players are required to take the 125% Welcome Bonus and complete the entire
-                        rollover before requesting a payout. If the player would like to opt out of the bonus, please
-                        contact customer support at 833-BIG-BETS, live support, or info@PLAYCR .net.com immediately
-                        before or after their deposit.
+                        Be advised that third party products such as live wagering and props builder do not share our same rules in some sports. Please refer to each individual page for the specific ruling on the different types of wager. It is the client’s responsibility to know and understand these rules.
                     </li>
                 </ol>
             </div>
@@ -227,28 +194,28 @@ require_once "./conf.php";
     <div class="footerNav d-flex d-lg-none">
         <div class="topMenu-container">
             <div class="topMenu-container-options">
-            <ul>
+                <ul>
                     <li><a href="sportsbook.php">
                             <div class="icon-container"><img src="./img/icons/sports.svg" alt="sportsbook"></div>
                             SPORTS
                         </a></li>
                     <li><a href="livewagering.php">
-                        <div class="icon-container "><img src="./img/icons/live.svg" alt="WAGERING"></div>
-                        LIVE WAGERING
-                    </a></li>
+                            <div class="icon-container "><img src="./img/icons/live.svg" alt="WAGERING"></div>
+                            LIVE WAGERING
+                        </a></li>
                     <li><a href="casino.php">
                             <div class="icon-container"><img src="./img/icons/casino.svg" alt="casino"></div>
                             CASINO
                         </a></li>
                     <li><a href="prop-builder.php">
-                        <div class="icon-container"><img src="./img/icons/icon-props.svg" alt="casino"></div>
-                        PROPS BUILDER
-                    </a></li>
+                            <div class="icon-container"><img src="./img/icons/icon-props.svg" alt="casino"></div>
+                            PROPS BUILDER
+                        </a></li>
                     <li><a href="racebook.php">
                             <div class="icon-container horse"><img src="./img/icons/racebook.svg" alt="racebook"></div>
                             RACEBOOK
                         </a></li>
-                    
+
                 </ul>
             </div>
         </div>
@@ -276,9 +243,7 @@ require_once "./conf.php";
         </div>
     </footer>
     <script src="https://images.betimages.com/Betslip/js/quick.login.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 
 </html>

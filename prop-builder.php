@@ -60,6 +60,9 @@ require_once "./conf.php";
                         </div>
                     </form>
                 </div>
+
+
+                <a href="betslip.php" class="topMenu-container-buttonContainer-button betslip">BETSLIP</a>
             </div>
         </div>
     </nav>

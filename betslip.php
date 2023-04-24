@@ -40,7 +40,7 @@ require_once "./conf.php";
                         <input class="topnav-login__input" type="password" placeholder="PASSWORD" name="password" required>
                         <div class="topnav-login__error"> <span name="msj_loading" id="betslip"></span><small class="text-danger" name="msj_error_lg"></small></div>
                         <input class="topnav-login__btn" type="submit" name="send" id="betslip-send" value="LOGIN">
-                        <input type="hidden" name="BackEndUrl" value="https://betslip.playcr.la/">
+                        <input type="hidden" name="BackEndUrl" value="https://betslip.playcr.ag/">
                     </form>
                 </div>
             </div>
@@ -61,7 +61,7 @@ require_once "./conf.php";
                         <div class=""> <span name="msj_loading" id="betslip"></span><small class="text-danger"
                                 name="msj_error_lg"></small></div>
                         <input class="btn-login" type="submit" name="send" id="betslip-send" value="LOG IN">
-                        <input type="hidden" name="BackEndUrl" value="https://betslip.playcr.la/">
+                        <input type="hidden" name="BackEndUrl" value="https://betslip.playcr.ag/">
                     </form>
                 </div>
             </div>
@@ -113,8 +113,8 @@ require_once "./conf.php";
                 <div><a href="sportsrules.php">SPORTS RULES</a></div>
                 <div><a href="horserules.php">HORSE RULES</a></div>
                 <div><a href="horsetracks.php">HORSE TRACKS</a></div>
-                <div><a href="https://agents.playcr.la/AgentSiteV2/" target="_blank">AGENTS CLASSIC</a></div>
-                <div><a href="https://adm.playcr.la/" target="_blank">AGENTS NEW</a></div>
+                <div><a href="https://agents.playcr.ag/AgentSiteV2/" target="_blank">AGENTS CLASSIC</a></div>
+                <div><a href="https://adm.playcr.ag/" target="_blank">AGENTS NEW</a></div>
                 <div><a href="tel:+18004142203">1-800-414-2203</a></div>
                 <div><a href="tel:+18886064182">1-888-606-4182</a></div>
                 <div><a href="tel:+18668954647">1-866-895-4647</a></div>

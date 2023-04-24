@@ -263,6 +263,24 @@ require_once "./conf.php";
             </div>
         </div>
     </div>
+
+    <div class="modal" id="welcomeModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Welcome</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onclick="closeModal()"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Thank you for your patience and support in launching our new website. If you wish to check your previous balance and wagers please click on the link below, otherwise click on close and log into your account.</p>
+                    <a href="http://playcr.cr/">playcr.cr</a>
+                    <p>We always appreciate your feedback.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <footer>
         <a href="index.php">
             <img src="./img/home/logo.svg" alt="logo">
@@ -285,6 +303,7 @@ require_once "./conf.php";
             </section>
         </div>
     </footer>
+    <script src="./js/index.js"></script>
     <script src="https://images.betimages.com/Betslip/js/quick.login.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>

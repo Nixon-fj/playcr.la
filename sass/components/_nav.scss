@@ -153,3 +153,19 @@
         font-weight: 600;
     }
 }
+
+.modal{
+    background-color: rgba(0, 0, 0, 0.5);
+    display: block;
+    top: 10%;
+}
+
+.modal-header{
+    background-color: $deep-blue;
+    color: $light-yellow;
+    font-weight: 600;
+}
+
+.btn-close{
+    filter: invert(1);
+}

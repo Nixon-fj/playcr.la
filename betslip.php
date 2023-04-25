@@ -133,8 +133,8 @@ require_once "./conf.php";
                 <div><a href="sportsrules.php">SPORTS RULES</a></div>
                 <div><a href="horserules.php">HORSE RULES</a></div>
                 <div><a href="horsetracks.php">HORSE TRACKS</a></div>
-                <div><a href="https://agents.playcr.ag/AgentSiteV2/" target="_blank">AGENTS CLASSIC</a></div>
-                <div><a href="https://adm.playcr.ag/" target="_blank">AGENTS NEW</a></div>
+                <div><a href="https://agents.playcr.ag/AgentSiteV2/" target="_blank">AGENTS</a></div>
+                <!-- <div><a href="https://adm.playcr.ag/" target="_blank">AGENTS NEW</a></div> -->
                 <div><a href="tel:+18004142203">1-800-414-2203</a></div>
                 <div><a href="tel:+18886064182">1-888-606-4182</a></div>
                 <div><a href="tel:+18668954647">1-866-895-4647</a></div>

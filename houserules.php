@@ -98,13 +98,13 @@ require_once "./conf.php";
                     </li>
                     <li>
                         All wagers accepted by will be honored, unless there is proof of cheating, attempted hacking or
-                        knowledgeable deceit. Any wager with BAD or INNACURATE odds can be cancelled by All Action 365
+                        knowledgeable deceit. Any wager with BAD or INNACURATE odds can be cancelled by All Playcr
                         group without prior notice to the client.
                     </li>
                     <li>
                         Minimum and maximum wager amounts on all sporting events will be determined by
                         <span>PLAYCR</span> and are
-                        subject to change without prior written notice. All Action 365 also reserves the right to adjust
+                        subject to change without prior written notice. All Playcr also reserves the right to adjust
                         limits on individual accounts.
                     </li>
                     <li>
@@ -120,7 +120,7 @@ require_once "./conf.php";
                     </li>
                     <li>
                         All accounts are kept private and confidential. All telephone calls are recorded for the
-                        protection of All Action 365 and its clients for the purpose of possible disputes. You must
+                        protection of All Playcr and its clients for the purpose of possible disputes. You must
                         claim a dispute within 7 days of the graded wager.
                     </li>
                     <li>
@@ -196,8 +196,8 @@ require_once "./conf.php";
                     </li>
                     <li>
                         In the event funds are credited to a customer’s account in error, it is incumbent upon the
-                        customer to notify All Action 365 the aforesaid error without delay. Unless otherwise notified
-                        by All Action 365, any transactions made shall be void.
+                        customer to notify All Playcr the aforesaid error without delay. Unless otherwise notified
+                        by All Playcr, any transactions made shall be void.
                     </li>
                     <li>
                         Although our computer system keeps exact customer balances, it is the client’s responsibility to

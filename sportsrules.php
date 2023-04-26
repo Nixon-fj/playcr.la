@@ -327,7 +327,7 @@ require_once "./conf.php";
                             <div class="a-panel">
                                 <ul>
                                     <li>
-                                        Bets are considered official esportfter 55 minutes of plesportsy. If
+                                        Bets are considered official after 55 minutes of play. If
                                         55 minutes of play have not being completed, a bet on the
                                         team is treated as no action, and a parlay or teaser bet
                                         will be reduced accordingly.

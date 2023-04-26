@@ -327,10 +327,7 @@ require_once "./conf.php";
                             <div class="a-panel">
                                 <ul>
                                     <li>
-                                        Bets are considered official after 55 minutes of play. If
-                                        55 minutes of play have not being completed, a bet on the
-                                        team is treated as no action, and a parlay or teaser bet
-                                        will be reduced accordingly.
+                                        Bets are considered official after 55 minutes of play. If 55 minutes of play have not being completed, a bet on the team is treated as no action, and a parlay or teaser bet will be reduced accordingly.
                                     </li>
                                     <li>
                                         Bets on 1st, 2nd half' and all quarters will be considered

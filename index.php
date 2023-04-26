@@ -320,7 +320,7 @@ require_once "./conf.php";
         </div>
     </div>
 
-    <div class="modal" id="welcomeModal">
+    <!-- <div class="modal" id="welcomeModal">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -340,7 +340,7 @@ require_once "./conf.php";
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <footer>
         <a href="index.php">

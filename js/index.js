@@ -1,7 +1,7 @@
-function closeModal(){
-    let modal = document.getElementById('welcomeModal');
-    modal.style.display = 'none';
-}
+// function closeModal(){
+//     let modal = document.getElementById('welcomeModal');
+//     modal.style.display = 'none';
+// }
 
 function initAcc(elem, option){
     document.addEventListener('click', function (e) {

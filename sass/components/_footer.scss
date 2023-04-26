@@ -148,3 +148,14 @@ footer{
         }
     }
 }
+
+.footer-list {
+    &--col {
+      text-align: start;
+      list-style: none;
+    }
+    &--link {
+      text-decoration: none;
+      color: $white;
+    }
+  }

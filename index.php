@@ -8,13 +8,14 @@ require_once "./conf.php";
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="sitio de apuestas playcr">
-    <link rel="shortcut icon" href="./img/icons/fav.ico" type="image/x-icon">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="public/css/styles.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="sitio de apuestas playcr" />
+    <link rel="shortcut icon" href="./img/icons/fav.ico" type="image/x-icon" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+    <link rel="stylesheet" href="public/css/styles.css" />
     <title>Play CR</title>
 </head>
 
@@ -22,7 +23,7 @@ require_once "./conf.php";
     <nav class="topMenu">
         <div class="topMenu-container">
             <a href="index.php" class="topMenu-container-imgContainer">
-                <img src="./img/home/logo.svg" alt="Logo" width="100%" height="100%">
+                <img src="./img/home/logo.svg" alt="Logo" width="100%" height="100%" />
             </a>
             <div class="topMenu-container-options d-none d-lg-flex justify-content-center">
                 <ul>
@@ -35,32 +36,45 @@ require_once "./conf.php";
             </div>
             <div class="topMenu-container-buttonContainer">
                 <div id="loginD" class="d-none d-lg-block">
-                    <form id="login-form" name="login-form" class="form-login d-flex" action="<?php echo LOGIN_URL; ?>" method="post"> <input type="hidden" name="siteID" id="siteID" value="<?php echo DGS_SITEID; ?>" />
-                        <input type="hidden" name="errorURL" value="<?php echo SITE_URL; ?>?login-error"/>
+                    <form id="login-form" name="login-form" class="form-login d-flex" action="<?php echo LOGIN_URL; ?>"
+                        method="post">
+                        <input type="hidden" name="siteID" id="siteID" value="<?php echo DGS_SITEID; ?>" />
+                        <input type="hidden" name="errorURL" value="<?php echo SITE_URL; ?>?login-error" />
                         <div class="d-flex">
-                            <input type="text" id="account" name="account" value="" placeholder="Username" class="form-login__input"/>
-                            <input type="password" id="password" name="password" value="" placeholder="Password" class="form-login__input"/>
+                            <input type="text" id="account" name="account" value="" placeholder="Username"
+                                class="form-login__input" />
+                            <input type="password" id="password" name="password" value="" placeholder="Password"
+                                class="form-login__input" />
                         </div>
                         <div>
-                            <button type="submit" class="topMenu-container-buttonContainer-button" id="login-form-submit" name="login-form-submit" value="login">LOGIN</button>
+                            <button type="submit" class="topMenu-container-buttonContainer-button"
+                                id="login-form-submit" name="login-form-submit" value="login">
+                                LOGIN
+                            </button>
                         </div>
                     </form>
                 </div>
                 <!-- ********************************mobile************************************************ -->
 
                 <div id="loginM" class="d-block d-lg-none">
-                    <form id="login-form" name="login-form" class="form-login d-flex" action="<?php echo M_LOGIN_URL; ?>" method="post"><input type="hidden" name="siteID" id="siteID" value="<?php echo DGS_SITEID; ?>" />
+                    <form id="login-form" name="login-form" class="form-login d-flex"
+                        action="<?php echo M_LOGIN_URL; ?>" method="post">
+                        <input type="hidden" name="siteID" id="siteID" value="<?php echo DGS_SITEID; ?>" />
                         <input type="hidden" name="errorURL" value="<?php echo SITE_URL; ?>?login-error" />
                         <div class="d-flex">
-                            <input type="text" id="account" name="account" placeholder="Username" class="form-login__input" />
-                            <input type="password" id="password" name="password" placeholder="Password" class="form-login__input" />
+                            <input type="text" id="account" name="account" placeholder="Username"
+                                class="form-login__input" />
+                            <input type="password" id="password" name="password" placeholder="Password"
+                                class="form-login__input" />
                         </div>
                         <div class="">
-                            <button type="submit" class="topMenu-container-buttonContainer-button" id="login-form-submit" name="login-form-submit" value="login">LOGIN</button>
+                            <button type="submit" class="topMenu-container-buttonContainer-button"
+                                id="login-form-submit" name="login-form-submit" value="login">
+                                LOGIN
+                            </button>
                         </div>
                     </form>
                 </div>
-
 
                 <a href="betslip.php" class="topMenu-container-buttonContainer-button betslip">BETSLIP</a>
             </div>
@@ -69,9 +83,12 @@ require_once "./conf.php";
     <main role="main">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active carriusel-item-container">
@@ -79,40 +96,39 @@ require_once "./conf.php";
                         <div class="carrousel-main-containerInfo">
                             <h2>BET ON SPORTS LIVE WAGER</h2>
                         </div>
-                        <div class="carrousel-main-containerImg"><img src="./img/home/player.png" alt="sports" width="100%" height="auto">
+                        <div class="carrousel-main-containerImg">
+                            <img src="./img/home/player.png" alt="sports" width="100%" height="auto" />
                         </div>
-
                     </div>
-
                 </div>
                 <div class="carousel-item carriusel-item-container">
                     <div class="carrousel-main">
                         <div class="carrousel-main-containerInfo">
                             <h2>RACEBOOK</h2>
                         </div>
-                        <div class="carrousel-main-containerImg"><img src="./img/home/horse.png" alt="sports" width="100%" height="auto">
+                        <div class="carrousel-main-containerImg">
+                            <img src="./img/home/horse.png" alt="sports" width="100%" height="auto" />
                         </div>
-
                     </div>
-
                 </div>
                 <div class="carousel-item carriusel-item-container">
                     <div class="carrousel-main">
                         <div class="carrousel-main-containerInfo">
                             <h2>ONLINE CASINO</h2>
                         </div>
-                        <div class="carrousel-main-containerImg"><img src="./img/home/casino elemnts.png" alt="sports" width="100%" height="auto">
+                        <div class="carrousel-main-containerImg">
+                            <img src="./img/home/casino elemnts.png" alt="sports" width="100%" height="auto" />
                         </div>
-
                     </div>
-
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
@@ -123,7 +139,7 @@ require_once "./conf.php";
                     <p>SPORTS</p>
                 </div>
                 <div class="cardsContainer-item-img">
-                    <img src="./img/home/player 02.png" alt="sports">
+                    <img src="./img/home/player 02.png" alt="sports" />
                 </div>
             </a>
             <a href="casino.php" class="cardsContainer-item">
@@ -131,7 +147,7 @@ require_once "./conf.php";
                     <p>CASINO</p>
                 </div>
                 <div class="cardsContainer-item-img">
-                    <img src="./img/home/casino elemnts 02.png" alt="casino">
+                    <img src="./img/home/casino elemnts 02.png" alt="casino" />
                 </div>
             </a>
             <a href="racebook.php" class="cardsContainer-item">
@@ -139,11 +155,12 @@ require_once "./conf.php";
                     <p>RACEBOOK</p>
                 </div>
                 <div class="cardsContainer-item-img">
-                    <img src="./img/home/horse 02.png" alt="RACEBOOK">
+                    <img src="./img/home/horse 02.png" alt="RACEBOOK" />
                 </div>
             </a>
         </div>
-        <div id="carouselExamplemobile" class="carousel slide d-none d-md-block d-xl-none carrousel-mobile" data-bs-ride="carousel">
+        <div id="carouselExamplemobile" class="carousel slide d-none d-md-block d-xl-none carrousel-mobile"
+            data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="cards-container">
@@ -153,7 +170,7 @@ require_once "./conf.php";
                                     <p>SPORTS</p>
                                 </div>
                                 <div class="cardsContainer-item-img">
-                                    <img src="./img/home/player 02.png" alt="sports">
+                                    <img src="./img/home/player 02.png" alt="sports" />
                                 </div>
                             </a>
                             <a href="casino.php" class="cardsContainer-item">
@@ -161,7 +178,7 @@ require_once "./conf.php";
                                     <p>CASINO</p>
                                 </div>
                                 <div class="cardsContainer-item-img">
-                                    <img src="./img/home/casino elemnts 02.png" alt="casino">
+                                    <img src="./img/home/casino elemnts 02.png" alt="casino" />
                                 </div>
                             </a>
                         </div>
@@ -175,7 +192,7 @@ require_once "./conf.php";
                                     <p>RACEBOOK</p>
                                 </div>
                                 <div class="cardsContainer-item-img">
-                                    <img src="./img/home/horse 02.png" alt="RACEBOOK">
+                                    <img src="./img/home/horse 02.png" alt="RACEBOOK" />
                                 </div>
                             </a>
                             <a href="sportsbook.php" class="cardsContainer-item sports">
@@ -183,7 +200,7 @@ require_once "./conf.php";
                                     <p>SPORTS</p>
                                 </div>
                                 <div class="cardsContainer-item-img">
-                                    <img src="./img/home/player 02.png" alt="sports">
+                                    <img src="./img/home/player 02.png" alt="sports" />
                                 </div>
                             </a>
                         </div>
@@ -209,7 +226,7 @@ require_once "./conf.php";
                                     <p>SPORTS</p>
                                 </div>
                                 <div class="cardsContainer-item-img">
-                                    <img src="./img/home/player 02.png" alt="sports">
+                                    <img src="./img/home/player 02.png" alt="sports" />
                                 </div>
                             </a>
                         </div>
@@ -223,7 +240,7 @@ require_once "./conf.php";
                                     <p>CASINO</p>
                                 </div>
                                 <div class="cardsContainer-item-img">
-                                    <img src="./img/home/casino elemnts 02.png" alt="casino">
+                                    <img src="./img/home/casino elemnts 02.png" alt="casino" />
                                 </div>
                             </a>
                         </div>
@@ -237,7 +254,7 @@ require_once "./conf.php";
                                     <p>RACEBOOK</p>
                                 </div>
                                 <div class="cardsContainer-item-img">
-                                    <img src="./img/home/horse 02.png" alt="RACEBOOK">
+                                    <img src="./img/home/horse 02.png" alt="RACEBOOK" />
                                 </div>
                             </a>
                         </div>
@@ -258,27 +275,46 @@ require_once "./conf.php";
         <div class="topMenu-container">
             <div class="topMenu-container-options">
                 <ul>
-                    <li><a href="sportsbook.php">
-                            <div class="icon-container"><img src="./img/icons/sports.svg" alt="sportsbook"></div>
+                    <li>
+                        <a href="sportsbook.php">
+                            <div class="icon-container">
+                                <img src="./img/icons/sports.svg" alt="sportsbook" />
+                            </div>
                             SPORTS
-                        </a></li>
-                    <li><a href="livewagering.php">
-                            <div class="icon-container "><img src="./img/icons/live.svg" alt="WAGERING"></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="livewagering.php">
+                            <div class="icon-container">
+                                <img src="./img/icons/live.svg" alt="WAGERING" />
+                            </div>
                             LIVE WAGERING
-                        </a></li>
-                    <li><a href="casino.php">
-                            <div class="icon-container"><img src="./img/icons/casino.svg" alt="casino"></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="casino.php">
+                            <div class="icon-container">
+                                <img src="./img/icons/casino.svg" alt="casino" />
+                            </div>
                             CASINO
-                        </a></li>
-                    <li><a href="prop-builder.php">
-                            <div class="icon-container"><img src="./img/icons/icon-props.svg" alt="casino"></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="prop-builder.php">
+                            <div class="icon-container">
+                                <img src="./img/icons/icon-props.svg" alt="casino" />
+                            </div>
                             PROPS BUILDER
-                        </a></li>
-                    <li><a href="racebook.php">
-                            <div class="icon-container horse"><img src="./img/icons/racebook.svg" alt="racebook"></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="racebook.php">
+                            <div class="icon-container horse">
+                                <img src="./img/icons/racebook.svg" alt="racebook" />
+                            </div>
                             RACEBOOK
-                        </a></li>
-
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -289,10 +325,16 @@ require_once "./conf.php";
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title">Welcome</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onclick="closeModal()"></button>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+                        onclick="closeModal()"></button>
                 </div>
                 <div class="modal-body">
-                    <p>Thank you for your patience and support in launching our new website. If you wish to check your previous balance and wagers please click on the link below, otherwise click on close and log into your account.</p>
+                    <p>
+                        Thank you for your patience and support in launching our new
+                        website. If you wish to check your previous balance and wagers
+                        please click on the link below, otherwise click on close and log
+                        into your account.
+                    </p>
                     <a href="http://playcr.cr/">playcr.cr</a>
                     <p>We always appreciate your feedback.</p>
                 </div>
@@ -300,32 +342,43 @@ require_once "./conf.php";
         </div>
     </div>
 
-
     <footer>
         <a href="index.php">
-            <img src="./img/home/logo.svg" alt="logo">
+            <img src="./img/home/logo.svg" alt="logo" />
         </a>
         <div class="footer-list">
             <section>
-                <div><a href="sportsbook.php">SPORTBOOK</a></div>
-                <div><a href="racebook.php">RACEBOOK</a></div>
-                <div><a href="livebetting.php">LIVE BETTING</a></div>
-                <div><a href="casino.php">CASINO</a></div>
-                <div><a href="houserules.php">HOUSE RULES</a></div>
-                <div><a href="sportsrules.php">SPORTS RULES</a></div>
-                <div><a href="horserules.php">HORSE RULES</a></div>
-                <div><a href="horsetracks.php">HORSE TRACKS</a></div>
-                <div><a href="https://agents.playcr.ag/AgentSiteV2/" target="_blank">AGENTS</a></div>
-                <!-- <div><a href="https://adm.playcr.ag/" target="_blank">AGENTS NEW</a></div> -->
-                <div><a href="tel:+18004142203">1-800-414-2203</a></div>
-                <div><a href="tel:+18886064182">1-888-606-4182</a></div>
-                <div><a href="tel:+18668954647">1-866-895-4647</a></div>
+                <ul class="footer-list--col col-12 col-md-3">
+                    <li><a class="footer-list--link" href="sportsbook.php">SPORTBOOK</a></li>
+                    <li><a class="footer-list--link" href="racebook.php">RACEBOOK</a></li>
+                    <li><a class="footer-list--link" href="livebetting.php">LIVE BETTING</a></li>
+                </ul>
+                <ul class="footer-list--col col-12 col-md-3">
+                    <li><a class="footer-list--link" href="houserules.php">HOUSE RULES</a></li>
+                    <li><a class="footer-list--link" href="sportsrules.php">SPORTS RULES</a></li>
+                    <li><a class="footer-list--link" href="horserules.php">HORSE RULES</a></li>
+                </ul>
+                <ul class="footer-list--col col-12 col-md-3">
+                    <li><a class="footer-list--link" href="casino.php">CASINO</a></li>
+                    <!-- <li><a href="horsetracks.php">HORSE TRACKS</a></li> -->
+                    <li>
+                        <a class="footer-list--link" href="https://agents.playcr.ag/AgentSiteV2/" target="_blank">AGENTS</a>
+                    </li>
+                    <!-- <li><a href="https://adm.playcr.ag/" target="_blank">AGENTS NEW</a></li> -->
+                </ul>
+                <ul class="footer-list--col col-12 col-md-3">
+                    <li><a class="footer-list--link" href="tel:+18004142203">1-800-414-2203</a></li>
+                    <li><a class="footer-list--link" href="tel:+18886064182">1-888-606-4182</a></li>
+                    <li><a class="footer-list--link" href="tel:+18668954647">1-866-895-4647</a></li>
+                </ul>
             </section>
         </div>
     </footer>
     <script src="./js/index.js"></script>
     <script src="https://images.betimages.com/Betslip/js/quick.login.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -125,19 +125,29 @@ require_once "./conf.php";
         </a>
         <div class="footer-list">
             <section>
-                <div><a href="sportsbook.php">SPORTBOOK</a></div>
-                <div><a href="racebook.php">RACEBOOK</a></div>
-                <div><a href="livebetting.php">LIVE BETTING</a></div>
-                <div><a href="casino.php">CASINO</a></div>
-                <div><a href="houserules.php">HOUSE RULES</a></div>
-                <div><a href="sportsrules.php">SPORTS RULES</a></div>
-                <div><a href="horserules.php">HORSE RULES</a></div>
-                <div><a href="horsetracks.php">HORSE TRACKS</a></div>
-                <div><a href="https://agents.playcr.ag/AgentSiteV2/" target="_blank">AGENTS</a></div>
-                <!-- <div><a href="https://adm.playcr.ag/" target="_blank">AGENTS NEW</a></div> -->
-                <div><a href="tel:+18004142203">1-800-414-2203</a></div>
-                <div><a href="tel:+18886064182">1-888-606-4182</a></div>
-                <div><a href="tel:+18668954647">1-866-895-4647</a></div>
+                <ul class="footer-list--col col-12 col-md-3">
+                    <li><a class="footer-list--link" href="sportsbook.php">SPORTBOOK</a></li>
+                    <li><a class="footer-list--link" href="racebook.php">RACEBOOK</a></li>
+                    <li><a class="footer-list--link" href="livebetting.php">LIVE BETTING</a></li>
+                </ul>
+                <ul class="footer-list--col col-12 col-md-3">
+                    <li><a class="footer-list--link" href="houserules.php">HOUSE RULES</a></li>
+                    <li><a class="footer-list--link" href="sportsrules.php">SPORTS RULES</a></li>
+                    <li><a class="footer-list--link" href="horserules.php">HORSE RULES</a></li>
+                </ul>
+                <ul class="footer-list--col col-12 col-md-3">
+                    <li><a class="footer-list--link" href="casino.php">CASINO</a></li>
+                    <!-- <li><a href="horsetracks.php">HORSE TRACKS</a></li> -->
+                    <li>
+                        <a class="footer-list--link" href="https://agents.playcr.ag/AgentSiteV2/" target="_blank">AGENTS</a>
+                    </li>
+                    <!-- <li><a href="https://adm.playcr.ag/" target="_blank">AGENTS NEW</a></li> -->
+                </ul>
+                <ul class="footer-list--col col-12 col-md-3">
+                    <li><a class="footer-list--link" href="tel:+18004142203">1-800-414-2203</a></li>
+                    <li><a class="footer-list--link" href="tel:+18886064182">1-888-606-4182</a></li>
+                    <li><a class="footer-list--link" href="tel:+18668954647">1-866-895-4647</a></li>
+                </ul>
             </section>
         </div>
     </footer>

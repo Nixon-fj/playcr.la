@@ -138,9 +138,9 @@ require_once "./conf.php";
                 <ul class="footer-list--col col-12 col-md-3">
                     <li><a class="footer-list--link" href="casino.php">CASINO</a></li>
                     <!-- <li><a href="horsetracks.php">HORSE TRACKS</a></li> -->
-                    <li><a class="footer-list--link" href="https://agents2.wagerstore.com/" target="_blank">AGENTS</a></li>
-                    <li><a class="footer-list--link" href="https://agents.playcr.ag/AgentSiteV2/" target="_blank">AGENTS BETA</a></li>
-                    <li><a class="footer-list--link" href="https://adm.playcr.ag/login" target="_blank">AGENTS NEW</a></li>
+                    <!-- <li><a class="footer-list--link" href="https://agents2.wagerstore.com/" target="_blank">AGENTS</a></li> -->
+                    <li><a class="footer-list--link" href="https://agents.playcr.ag/AgentSiteV2/" target="_blank">AGENTS</a></li>
+                    <!-- <li><a class="footer-list--link" href="https://adm.playcr.ag/login" target="_blank">AGENTS NEW</a></li> -->
                 </ul>
                 <ul class="footer-list--col col-12 col-md-3">
                     <li><a class="footer-list--link" href="tel:+18004142203">1-800-414-2203</a></li>

@@ -1,4 +1,4 @@
-.topMenu{
+.topMenu {
     display: flex;
     justify-content: center;
     position: sticky;
@@ -9,69 +9,76 @@
     height: auto;
     background-color: $deep-blue;
     z-index: 1000;
-    @media screen and (min-width: 900px){
+
+    @media screen and (min-width: 900px) {
         height: 83px;
         padding-left: 0px;
         padding-right: 0px;
     }
 
-    &-container{
+    &-container {
         width: calc(100% - 30px);
         max-width: 1400px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        @media (min-width: 524px){
+
+        @media (min-width: 524px) {
             flex-direction: row;
         }
-        
-        &-imgContainer{
+
+        &-imgContainer {
             width: 50%;
             height: auto;
             margin-bottom: 1rem;
             margin-right: 1rem;
-            @media (min-width: 524px){
+
+            @media (min-width: 524px) {
                 width: 30%;
                 margin-bottom: 0;
             }
-            @media screen and (min-width: 900px){
+
+            @media screen and (min-width: 900px) {
                 width: 145px;
                 height: auto;
             }
         }
 
-        &-options{
+        &-options {
             width: calc(45%);
 
-            ul{
+            ul {
                 list-style: none;
                 display: flex;
-                align-items:center;
+                align-items: center;
                 gap: 0.5rem;
                 margin: 0;
                 padding: 0;
             }
 
-            ul li a{
+            ul li a {
                 color: $light-yellow;
                 text-decoration: none;
                 font-size: 12px;
                 font-weight: 900;
-                @media (min-width: 1255px){
+
+                @media (min-width: 1255px) {
                     font-size: 14px;
                 }
             }
         }
-        &-buttonContainer{
+
+        &-buttonContainer {
             width: 100%;
             display: flex;
             align-items: center;
             justify-content: center;
-            @media screen and (min-width: 900px){
+
+            @media screen and (min-width: 900px) {
                 width: 40%;
             }
 
-            &-button{
+            &-button {
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -80,47 +87,69 @@
                 width: 65px;
                 height: 30px;
                 text-decoration: none;
-                background-color: $light-yellow;
+                background-color: #f3ba40;
                 font-size: 12px;
                 font-weight: 900;
-                color: $deep-blue;
-                @media screen and (min-width: 340px){
+                color: #335aa4;
+                border: none;
+                border-radius: 10px;
+
+                @media screen and (min-width: 340px) {
                     margin: 0 5px;
+                    border: none;
+                    border-radius: 10px;
                 }
-                @media screen and (min-width: 900px){
+
+                @media screen and (min-width: 900px) {
                     width: 70px;
                     height: 30px;
                     font-size: 16px;
-                }
-                @media screen and (min-width: 1200px){
-                    padding: 0.5rem 3rem;
+                    border: none;
+                    border-radius: 10px;
                 }
 
-                &:hover{
-                    background-color: $mid-yellow;
+                @media screen and (min-width: 1200px) {
+                    padding: 0.5rem 3rem;
+                    border: none;
+                    border-radius: 10px;
+
+                    &:hover {
+                        background-color: #eaca77;
+                    }
                 }
-                
             }
-            .betslip{
+
+            .betslip {
                 color: $white;
-                background-color: $green;
+                background-color: #0d6efd;
+
+                &:hover {
+                    background-color: #009e0f;
+                }
             }
-            .container-inputs{
+
+            .container-inputs {
                 display: flex;
-                &__errors{
+
+                &__errors {
                     display: inline-block;
                 }
             }
-            .form-login__input{
+
+            .form-login__input {
                 width: 90px;
                 height: 30px;
                 margin: 0 2px;
-                @media screen and (min-width: 340px){
+                border: none;
+                border-radius: 10px;
+
+                @media screen and (min-width: 340px) {
                     margin: 0 5px;
+                    border: none;
+                    border-radius: 10px;
                 }
             }
         }
-        
     }
 }
 
@@ -128,23 +157,26 @@
     position: static;
 }
 
-.topnav-login{
-    &__form{
+.topnav-login {
+    &__form {
         display: flex;
         position: relative;
     }
-    &__input{
+
+    &__input {
         margin: 0 0.5rem;
         width: 100px;
         border-radius: 5px;
         border: none;
     }
-    &__error{
+
+    &__error {
         position: absolute;
         top: 1.8rem;
         left: 1rem;
     }
-    &__btn{
+
+    &__btn {
         border: none;
         border-radius: 5px;
         padding: 0.5rem;
@@ -154,18 +186,18 @@
     }
 }
 
-.modal{
+.modal {
     background-color: rgba(0, 0, 0, 0.5);
     display: block;
     top: 10%;
 }
 
-.modal-header{
+.modal-header {
     background-color: $deep-blue;
     color: $light-yellow;
     font-weight: 600;
 }
 
-.btn-close{
+.btn-close {
     filter: invert(1);
 }

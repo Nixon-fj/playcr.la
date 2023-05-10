@@ -425,9 +425,9 @@ body {
               background-color: #EACA77; } }
       .topMenu-container-buttonContainer .betslip {
         color: #FFFFFF;
-        background-color: #009e0f; }
+        background-color: #e0680f; }
         .topMenu-container-buttonContainer .betslip:hover {
-          background-color: #439f4c; }
+          background-color: #009e0f; }
       .topMenu-container-buttonContainer .container-inputs {
         display: flex; }
         .topMenu-container-buttonContainer .container-inputs__errors {

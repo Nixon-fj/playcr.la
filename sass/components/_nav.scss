@@ -87,10 +87,10 @@
                 width: 65px;
                 height: 30px;
                 text-decoration: none;
-                background-color: #f3ba40;
+                background-color: $light-yellow;
                 font-size: 12px;
                 font-weight: 900;
-                color: #335aa4;
+                color: $deep-blue;
                 border: none;
                 border-radius: 10px;
 
@@ -114,17 +114,17 @@
                     border-radius: 10px;
 
                     &:hover {
-                        background-color: #eaca77;
+                        background-color: $mid-yellow;
                     }
                 }
             }
 
             .betslip {
                 color: $white;
-                background-color: #0d6efd;
+                background-color: $green;
 
                 &:hover {
-                    background-color: #009e0f;
+                    background-color: #439f4c;
                 }
             }
 
